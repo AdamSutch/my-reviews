@@ -1,0 +1,16 @@
+{
+  "name": "my-reviews",
+  "version": "1.0.0",
+  "description": "A tool for checking PR's that matter to me",
+  "main": "src/index.mjs",
+  "scripts": {
+    "start": "node --experimental-modules src/index.mjs"
+  },
+  "author": "Adam Sutch",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.18.0",
+    "bluebird": "3.5.1",
+    "ramda": "0.25.0"
+  }
+}

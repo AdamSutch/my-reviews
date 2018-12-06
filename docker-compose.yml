@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+  my-reviews:
+    container_name: my-reviews
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
